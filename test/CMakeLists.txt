@@ -11,6 +11,6 @@ enable_testing()
 
 include(GoogleTest)
 
-add_executable(dsa_test test.cpp)
+add_executable(dsa_test test_linked_list.cpp)
 target_link_libraries(dsa_test dsa GTest::gtest_main)
 gtest_discover_tests(dsa_test)
